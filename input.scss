@@ -1,0 +1,69 @@
+
+h1{
+  color: white;
+  display: flex;
+  align-self: flex-end;
+}
+span{
+    color:#30343F;
+}
+header{
+    width: 100%;
+    position:fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+header{
+    figure{
+    
+    }
+}
+
+nav{
+    background: white;
+    height: 45px;
+    width: 296px;
+}
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li { display: inline-block; }
+  
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+    }
+  }
+  main{
+      background-image: url(img/background_header.jpg);
+      height: 400px;
+      width: 100%;
+      background-size: cover;
+  }
+  .content{
+    background: #DB5461;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  button{
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 0px 14px 1px rgb(0 0 0);
+  }
+  footer{
+    background: #30343F;
+    display: flex;
+    height: 100px;
+    color: white;
+  }
