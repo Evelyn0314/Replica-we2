@@ -21,19 +21,6 @@ header {
 
 }
 
-.content{
-
-}
-  
-
-
-header figure{
-  border: 1px solid rgb(7, 112, 182);
-  
-}
-header > content > figure > img{
-  
-}
 nav{
  
   display: flex;
@@ -50,10 +37,6 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;;
-}
-
-nav li {
- 
 }
 
 nav a {
